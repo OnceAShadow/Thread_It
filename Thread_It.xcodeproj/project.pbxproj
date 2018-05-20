@@ -18,8 +18,8 @@
 /* Begin PBXFileReference section */
 		96990BD620B23E120019B90F /* SimpleSlave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SimpleSlave.swift; path = Thread_It/Core/SimpleSlave.swift; sourceTree = SOURCE_ROOT; };
 		96CEFAA420B23A3300215259 /* Thread_It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thread_It.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		96CEFAA720B23A3300215259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96CEFAA920B23A3300215259 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96CEFAA720B23A3300215259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../Core/AppDelegate.swift; sourceTree = "<group>"; };
+		96CEFAA920B23A3300215259 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../Core/ViewController.swift; sourceTree = "<group>"; };
 		96CEFAAC20B23A3300215259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96CEFAAE20B23A3E00215259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96CEFAB120B23A3E00215259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,28 +40,12 @@
 		96990BD320B23C8A0019B90F /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				96990BD520B23D7B0019B90F /* UI & Friends */,
-				96990BD420B23D5F0019B90F /* AppD & Friends */,
+				96CEFAA920B23A3300215259 /* ViewController.swift */,
+				96990BD620B23E120019B90F /* SimpleSlave.swift */,
+				96CEFAA720B23A3300215259 /* AppDelegate.swift */,
 			);
 			name = Core;
 			path = "New Group";
-			sourceTree = "<group>";
-		};
-		96990BD420B23D5F0019B90F /* AppD & Friends */ = {
-			isa = PBXGroup;
-			children = (
-				96CEFAA720B23A3300215259 /* AppDelegate.swift */,
-			);
-			name = "AppD & Friends";
-			sourceTree = "<group>";
-		};
-		96990BD520B23D7B0019B90F /* UI & Friends */ = {
-			isa = PBXGroup;
-			children = (
-				96CEFAA920B23A3300215259 /* ViewController.swift */,
-				96990BD620B23E120019B90F /* SimpleSlave.swift */,
-			);
-			path = "UI & Friends";
 			sourceTree = "<group>";
 		};
 		96CEFA9B20B23A3300215259 = {
