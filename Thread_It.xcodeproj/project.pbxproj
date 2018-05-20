@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96990BD720B23E120019B90F /* SimpleSlave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96990BD620B23E120019B90F /* SimpleSlave.swift */; };
 		96CEFAA820B23A3300215259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CEFAA720B23A3300215259 /* AppDelegate.swift */; };
 		96CEFAAA20B23A3300215259 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CEFAA920B23A3300215259 /* ViewController.swift */; };
 		96CEFAAD20B23A3300215259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CEFAAB20B23A3300215259 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96990BD620B23E120019B90F /* SimpleSlave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SimpleSlave.swift; path = Thread_It/Core/SimpleSlave.swift; sourceTree = SOURCE_ROOT; };
 		96CEFAA420B23A3300215259 /* Thread_It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thread_It.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96CEFAA720B23A3300215259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96CEFAA920B23A3300215259 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,11 +40,28 @@
 		96990BD320B23C8A0019B90F /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				96CEFAA920B23A3300215259 /* ViewController.swift */,
-				96CEFAA720B23A3300215259 /* AppDelegate.swift */,
+				96990BD520B23D7B0019B90F /* UI & Friends */,
+				96990BD420B23D5F0019B90F /* AppD & Friends */,
 			);
 			name = Core;
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		96990BD420B23D5F0019B90F /* AppD & Friends */ = {
+			isa = PBXGroup;
+			children = (
+				96CEFAA720B23A3300215259 /* AppDelegate.swift */,
+			);
+			name = "AppD & Friends";
+			sourceTree = "<group>";
+		};
+		96990BD520B23D7B0019B90F /* UI & Friends */ = {
+			isa = PBXGroup;
+			children = (
+				96CEFAA920B23A3300215259 /* ViewController.swift */,
+				96990BD620B23E120019B90F /* SimpleSlave.swift */,
+			);
+			path = "UI & Friends";
 			sourceTree = "<group>";
 		};
 		96CEFA9B20B23A3300215259 = {
@@ -153,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96CEFAAA20B23A3300215259 /* ViewController.swift in Sources */,
+				96990BD720B23E120019B90F /* SimpleSlave.swift in Sources */,
 				96CEFAA820B23A3300215259 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
