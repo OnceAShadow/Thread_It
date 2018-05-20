@@ -35,6 +35,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96990BD320B23C8A0019B90F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				96CEFAA920B23A3300215259 /* ViewController.swift */,
+				96CEFAA720B23A3300215259 /* AppDelegate.swift */,
+			);
+			name = Core;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		96CEFA9B20B23A3300215259 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +64,21 @@
 		96CEFAA620B23A3300215259 /* Thread_It */ = {
 			isa = PBXGroup;
 			children = (
-				96CEFAA720B23A3300215259 /* AppDelegate.swift */,
-				96CEFAA920B23A3300215259 /* ViewController.swift */,
+				96990BD320B23C8A0019B90F /* Core */,
+				96CEFABD20B23BFD00215259 /* Others */,
+			);
+			path = Thread_It;
+			sourceTree = "<group>";
+		};
+		96CEFABD20B23BFD00215259 /* Others */ = {
+			isa = PBXGroup;
+			children = (
 				96CEFAAB20B23A3300215259 /* Main.storyboard */,
 				96CEFAAE20B23A3E00215259 /* Assets.xcassets */,
 				96CEFAB020B23A3E00215259 /* LaunchScreen.storyboard */,
 				96CEFAB320B23A3E00215259 /* Info.plist */,
 			);
-			path = Thread_It;
+			name = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
